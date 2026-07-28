@@ -60,7 +60,7 @@ a {
   width: 500px;
 }
 
-button {
+.header-btn {
   background-color: #3882f6;
   color: #fff;
   border: none;
@@ -134,4 +134,13 @@ button {
   text-align: right;
   margin-top: 1px;
   font-size: 24px;
+}
+
+.CTA {
+  background-color: #fff;
+  padding: 100px 0;
+}
+
+.modal {
+  background-color: #3882f6;
 }
