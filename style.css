@@ -146,10 +146,15 @@ a {
 .modal {
   background-color: #3882f6;
   width: 1000px;
-  padding: 40px 80px;
+  padding: 40px 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-radius: 10px;
+}
+
+.modal-main {
+  padding: 0 114px;
 }
 
 .modal-main h1 {
@@ -160,6 +165,28 @@ a {
 }
 
 .modal-main p {
-  color: #fff;
+  color: #e5e7eb;
+  font-size: 14px;
   margin-top: 4px;
+}
+
+.CTA-btn {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  margin: 0 110px;
+  padding: 8px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  font-size: 14px;
 }
