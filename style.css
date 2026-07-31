@@ -7,6 +7,7 @@ body {
 .header {
   padding: 0 25%;
   background-color: #1f2937;
+  padding-bottom: 100px;
 }
 
 .header-logo {
@@ -17,6 +18,8 @@ ul {
   list-style: none;
   display: flex;
   gap: 24px;
+  padding-top: 10px;
+  font-size: 18px;
 }
 
 a {
@@ -57,7 +60,9 @@ a {
 
 .header-cat-image {
   display: flex;
-  width: 500px;
+  width: 1000px;
+  height: 230px;
+  object-fit: cover;
 }
 
 .header-btn {
